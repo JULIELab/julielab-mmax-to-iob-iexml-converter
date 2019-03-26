@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID>11888290</PMID>
+        <Article>
+            <ArticleTitle/>
+            <Abstract>
+                <AbstractText><s id="0">Production and characterization of bifunctional enzymes .</s> <s id="1">Substrate channeling in the aspartate pathway .</s> <s id="2">The direct channeling of an intermediate between enzymes that catalyze consecutive reactions in a pathway offers the possibility of an efficient , exclusive , and protected means of metabolite delivery .</s> <s id="3"><e id=":::PRGE" sub="PRGE:protein">Aspartokinase - homoserine dehydrogenase I</e> ( <e id=":::PRGE" sub="PRGE:protein">AK-HDH I</e> ) from Escherichia coli is an unusual bifunctional enzyme in that it does not catalyze consecutive reactions .</s> <s id="4">The potential channeling of the intermediate <e id=":::PRGE" sub="PRGE:protein">beta-aspartyl phosphate</e> between the <e id=":::PRGE" sub="PRGE:protein">aspartokinase</e> of this bifunctional enzyme and <e id=":::PRGE" sub="PRGE:protein">aspartate semialdehyde dehydrogenase</e> ( <e id=":::PRGE" sub="PRGE:protein">ASADH</e> ) , the enzyme that catalyzes the intervening reaction , has been examined .</s> <s id="5">The introduction of increasing levels of inactivated <e id=":::PRGE" sub="PRGE:protein">ASADH</e> has been shown to compete against enzyme - enzyme interactions and direct intermediate channeling , leading to a decrease in the overall reaction flux through these consecutive enzymes .</s> <s id="6">These same results are obtained whether these experiments are conducted with <e id=":::PRGE" sub="PRGE:protein">aspartokinase III</e> , a naturally occurring monofunctional isozyme , with an artificially produced monofunctional <e id=":::PRGE" sub="PRGE:protein">aspartokinase I</e> , or with a fusion construct of <e id=":::PRGE" sub="PRGE:protein">AK I</e> - <e id=":::PRGE" sub="PRGE:protein">ASADH</e> .</s> <s id="7">These results provide definitive evidence for the channeling of beta-aspartyl phosphate between <e id=":::PRGE" sub="PRGE:protein">aspartokinase</e> and <e id=":::PRGE" sub="PRGE:protein">aspartate semialdehyde dehydrogenase</e> in E. coli and suggest that <e id=":::PRGE" sub="PRGE:protein">ASADH</e> may provide a bridge to channel the intermediates between the non - consecutive reactions of <e id=":::PRGE" sub="PRGE:protein">AK-HDH I</e> .</s> </AbstractText>
+            </Abstract>
+        </Article>
+    </MedlineCitation>
+</PubmedArticle>
