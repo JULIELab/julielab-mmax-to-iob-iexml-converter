@@ -16,7 +16,7 @@ MMAX2 data that should be converted and is used to resolve cases in which multip
 output formats do not support overlapping annotations. The annotation name that comes first in the priority file
 will thus hide annotations of subsequent annotation names in case of overlapping when converting to IOB or IeXML.
 
-The default priolist for the FSU PRGE corpus, for example, is
+The default priolist for the FSU PRGE (now ProGene, see https://zenodo.org/record/3698568#.X46oSy8Rp-U) corpus, for example, is
 
     protein
     protein_familiy_or_group

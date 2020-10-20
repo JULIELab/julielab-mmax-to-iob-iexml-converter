@@ -7,25 +7,23 @@
     <groupId>de.julielab</groupId>
     <artifactId>julielab-mmax-to-iob-iexml-converter</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>JULIELAB MMAX2 to IOB or IEXML Converter</name>
     <description>Converts MMAX to IOB or IEXML</description>
 
     <parent>
         <groupId>de.julielab</groupId>
         <artifactId>julielab-parent</artifactId>
-        <version>2.4.0</version>
+        <version>2.4.1</version>
     </parent>
 
     <dependencies>
 
 
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.14</version>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
         </dependency>
-
         <dependency>
             <groupId>net.sf.mmax2</groupId>
             <artifactId>mmax2</artifactId>

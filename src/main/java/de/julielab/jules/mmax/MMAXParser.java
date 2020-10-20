@@ -1,11 +1,12 @@
 package de.julielab.jules.mmax;
 
-import org.apache.log4j.Logger;
 import org.apache.xerces.dom.DocumentImpl;
 import org.eml.MMAX2.annotation.markables.Markable;
 import org.eml.MMAX2.annotation.markables.MarkableLevel;
 import org.eml.MMAX2.discourse.MMAX2Discourse;
 import org.eml.MMAX2.discourse.MMAX2DiscourseElement;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -35,7 +36,7 @@ public class MMAXParser {
     private static final String ATTR_VALUE_MEDLINE = "MEDLINE";
     private static final String ATTR_VALUE_NLM = "NLM";
     private static final String SEM_TYP_PRGE = "PRGE";
-    static Logger logger = Logger.getLogger(MMAXParser.class);
+    private final static Logger logger = LoggerFactory.getLogger(MMAXParser.class);
     private HashMap<String, Integer> prioMap;
     private String ORIGINAL_INPUT_DIR = "";
     private String CONFIG_PRIO_LIST;
