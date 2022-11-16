@@ -7,7 +7,7 @@
     <groupId>de.julielab</groupId>
     <artifactId>julielab-mmax-to-iob-iexml-converter</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <name>JULIELAB MMAX2 to IOB or IEXML Converter</name>
     <description>Converts MMAX to IOB or IEXML</description>
 
