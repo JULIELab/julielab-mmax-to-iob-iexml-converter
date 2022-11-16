@@ -323,11 +323,11 @@ public class MMAXParser {
                         }
                     }
 
-                    if (actualText.charAt(wordCharCounter) == i) {
+                    if (actualText.charAt(wordCharCounter) == i || Character.toLowerCase(actualText.charAt(wordCharCounter)) == Character.toLowerCase(i)) {
                         wordCharCounter++;
                     } else {
                         if (!Character.isWhitespace(i)) {
-                            this.warn("there is a non whitespace character different in original text at document " + pmid + " critical character is '" + i + "' near word '" + actualText + "'");
+                            this.warn("there is a non whitespace character different in original text at document " + pmid + " critical character is '" + i + "' near word '" + actualText + "' (MMAX2 word ID "+ actualWord.getId() + ")");
                         } else {
                             words[wordCounter - 1].setFollowedBySpace(true);
                         }

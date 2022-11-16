@@ -3,7 +3,7 @@ package de.julielab.jules.mmax.test;
 import de.julielab.jules.mmax.MMAXParser;
 import de.julielab.jules.mmax.MarkableContainer;
 import de.julielab.jules.mmax.WordInformation;
-import junit.framework.TestCase;
+import org.junit.Test;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,8 +12,12 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestParser extends TestCase {
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
+public class TestParser  {
+
+	@Test
 	public void testHandleOriginalTextInformation() throws Exception {
 
 		WordInformation i0 = new WordInformation();
@@ -53,11 +57,11 @@ public class TestParser extends TestCase {
 		assertFalse(i7.getText(), i7.isFollowedBySpace());
 	}
 
+	@Test
 	public void testMarkableChoice() throws Exception {
 		List<MarkableContainer> markables = new ArrayList<MarkableContainer>();
 		MarkableContainer m1 = new MarkableContainer();
 
-		m1 = new MarkableContainer();
 		m1.setBegin(0);
 		m1.setEnd(10);
 		m1.setPriority(3);
